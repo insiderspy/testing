@@ -1,0 +1,404 @@
+body {
+    font-size: 100%;
+    background-color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-family: "Domine", serif;
+    font-size: 31px;
+    color: #967117;
+    font-weight: 700;
+    padding: 19px 96px 0 0;
+    text-transform: uppercase;
+}
+
+nav>ul {
+    gap: 32px;
+    margin-top: 38px;
+
+}
+
+nav>ul>li>a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+}
+
+header>p {
+    margin-left: 235px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #C90016;
+}
+
+nav>ul>li>a:hover {
+    color: #967117;
+    text-decoration: underline;
+}
+
+.banner {
+    background: #E7E6E2 url(../img/background-image.jpg);
+    padding: 60px 530px 60px 0;
+}
+
+.welcome-background {
+    background-color: rgba(204, 102, 102, 0.723);
+    padding: 10px 35px 28px 35px;
+}
+
+h2 {
+    font-family: "Domine", serif;
+    color: #FCC200;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.banner>div>p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 18px;
+}
+
+div.flex-container>div>a {
+    color: #967117;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    background-color: #FCC200;
+    margin: 50px 150px 28px 0px;
+    line-height: 1.5;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+div.flex-container>div>a:hover {
+    color: #FFFFFF;
+    background-color: #967117;
+
+}
+
+h3 {
+    font-family: "Domine", serif;
+    font-size: 48px;
+    color: #967117;
+    font-weight: 700;
+    margin-top: 51px;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+}
+
+.article {
+    border: 1px solid #9CA3AF;
+    margin-bottom: 56px;
+    border-radius: 4px;
+}
+
+.article-content {
+    width: 538px;
+}
+
+.article-content>p {
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    padding: 19px 20px 18px 20px;
+}
+
+h4 {
+    font-family: "Domine", serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #C90016;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.article-image {
+    margin: 19px 21px 17px 33px;
+}
+
+.article-bottom {
+    background-color: #F3F4F6;
+    padding: 11px 17px 11px 17px;
+}
+
+.article-bottom>div>ul>li {
+    color: #967117;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.article-bottom>div>ul {
+    gap: 34px;
+}
+
+.third-article-margin {
+    margin-left: 554px;
+}
+
+.second-article-margin {
+    margin-left: 579px;
+}
+
+.first-article-margin {
+    margin-left: 604px;
+}
+
+.stars>img {
+    margin-left: 1px;
+}
+
+footer {
+    background-color: #C90016;
+    text-align: center;
+    padding-top: 48px;
+    margin-top: 56px;
+}
+
+footer>h2 {
+    color: #FFFFFF;
+    font-size: 31px;
+}
+
+footer ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+footer ul li {
+    margin-right: 68px;
+
+}
+
+footer ul {
+    margin: 17px 150px 17px 305px;
+}
+
+footer ul li a:hover {
+    color: #FCC200;
+}
+
+.space {
+    margin-left: 85px;
+}
+
+.line {
+    width: 860px;
+    margin: 24px 50px 24px 50px;
+    background-color: #FFFFFF;
+    padding: 1px;
+}
+
+.last-lines {
+    margin-top: 24px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    padding-bottom: 48px;
+}
+
+/* ========> TOURS AND CHECKOUT<======== */
+.offers p,
+.tour-blog-post p,
+.tours p,
+.checkout p,
+.tour-blog-post a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #111827;
+    line-height: 1.5;
+}
+
+.tours {
+    background: #333D02 url(../img/tours-backgroung-image.jpg);
+    padding: 78px 0 78px 35px;
+    margin-top: 10px;
+}
+
+.tours p, .checkout p {
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 700;
+    width: 343px;
+}
+
+.offers {
+    width: 300px;
+    text-align: center;
+}
+
+.offers h4 {
+    margin: 0;
+    margin-top: 12px;
+}
+
+.tour-blog-post {
+    width: 429px;
+    background-color: #F3F4F6;
+    padding: 18px 18px 35px 18px;
+}
+
+.blog-posts-gap,
+.offers-gap {
+    gap: 30px;
+}
+
+.tour-blog-post p {
+    margin-top: 12px;
+}
+
+.tour-blog-post h4 {
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+}
+
+p.italic-text {
+    font-style: italic;
+}
+.learn-more{
+    margin-top: 12px;
+}
+.tour-blog-post a {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.tour-blog-post a:hover{
+    text-decoration: underline;
+}
+.checkout {
+    background: #E0D1B9 url(../img/checkout-backgound.jpg);
+    padding: 123px 0 60px 36px;
+}
+
+.my-order {
+    width: 300px;
+    margin-right: 30px;
+}
+
+.my-order h4 {
+    margin: 0;
+    margin-top: 12px;
+}
+
+table, td{
+    border-collapse: collapse;
+    border: 1px solid #111827;
+    text-align: center;
+    padding: 11px 15px 11px 15px;
+    margin-top: 12px;
+
+  }
+
+  td, .btn {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #111827;
+  }
+
+  form>fieldset>h4 {
+    margin: 0;
+  }
+
+  .red-text {
+    color: #B91C1C;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+fieldset {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.payment {
+    width: 630px;
+}
+label {
+    display: block;
+    margin-bottom: 7px;
+    margin-top: 24px;
+    color: #111827;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.name {
+    display: block;
+}
+
+input {
+    background-color: #F9FAFB;
+    border: 1px solid #D1D5DB;
+    line-height: 38px;
+    /* google seached to givinf paddign left to curson in input box so that it does not mess us my width calculation*/
+    text-indent: 7px;
+}
+.long-input>input {
+    width: 624px;
+}
+
+.short-input>div>input {
+    width: 295px;
+}
+.short-input {
+    gap: 28px;
+}
+
+input#expiry-date {
+    width: 298px;
+}
+
+.billing-info {
+    margin-top: 48px;
+}
+
+.btn {
+    width: 630px;
+    background-color: #FCC200;
+    color: #967117;
+    border: none;
+    margin-top: 38px;
+    font-weight: 700;
+    padding: 8px 278px 8px 278px;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #967117;
+    color: #FFFFFF;
+}
+

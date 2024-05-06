@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Globetrotting Ben</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="flex-container">
+            <h1><a href="index.html"><img src="img/globetrotting-ben-title.svg" alt="Globetrotting Ben"></a></h1>
+            <nav>
+                <ul class="flex-container">
+                    <li><a href="tours.html">Tours</a></li>
+                    <li><a href="checkout.html">Checkout</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <main>
+            <section>
+                <div class="checkout">
+                    <h2>Checkout</h2>
+                    <p>Book and reserve your spot!</p>
+                </div>
+                <section class="flex-container">
+                    <div class="my-order">
+                        <h3>My Order</h3>
+                        <img src="img/vietnam-wonders.jpg" alt="Image of a vietnam Market">
+                        <h4>Wonders of Vietnam</h4>
+                        <p>February 1-8, 2024</p>
+                        <table>
+                            <tr>
+                                <td>Full Payment</td>
+                                <td>Deposit Only</td>
+                            </tr>
+                            <tr>
+                                <td>$7,750.00</td>
+                                <td>$1,500.00</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="Payment">
+
+                        <h3>Payment</h3>
+                        <form action="#" method="post">
+                            <fieldset>
+                                <h4>Shipping Address</h4>
+                                <div class="name long-input">
+                                    <label for="name">Name<span class="red-text"> *(required)</span></label>
+                                    <input type="text" name="name" id="name" required>
+                                </div>
+                                <div class="flex-container short-input">
+                                    <div>
+                                        <label for="address">Address</label>
+                                        <input type="text" name="address" id="address">
+                                    </div>
+                                    <div>
+                                        <label for="city">City</label>
+                                        <input type="text" name="city" id="city">
+                                    </div>
+                                </div>
+                                <div class="flex-container short-input">
+                                    <div class="email">
+                                        <label for="email">Email<span class="red-text"> *(required)</span></label>
+                                        <input type="email" id="email" name="email" required>
+                                    </div>
+                                    <div class="phone">
+                                        <label for="phone">Telehone<span class="red-text"> *(required)</span></label>
+                                        <input type="tel" id="phone" name="phone" required>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <fieldset>
+                                <h4 class="billing-info">Billing Information</h4>
+                                <div>
+                                    <div class="long-input">
+                                        <label for="card-id">Credit Card Number</label>
+                                        <input type="number" id="card-id">
+                                    </div>
+                                </div>
+                                <div class="flex-container short-input">
+                                    <div>
+                                        <label for="expiry-date">Expiry Date</label>
+                                        <input type="month" id="expiry-date">
+                                    </div>
+                                    <div>
+                                        <label for="security-code">Security Code</label>
+                                        <input type="password" id="security-code" minlength="3" maxlength="3">
+                                    </div>
+                                </div>
+                            </fieldset>
+
+                            <input class="btn" type="submit" value="Purchase">
+
+                        </form>
+                    </div>
+
+                </section>
+
+            </section>
+        </main>
+        <footer>
+            <h2>Globetrotting Ben</h2>
+            <div>
+                <ul class="flex-container">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Travel Resources</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li class="space"><a href="tours.html">Tours</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="line"></div>
+            <div class="last-lines">
+                <p>Copyright 2023</p>
+                <p>For educational purposes only</p>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
